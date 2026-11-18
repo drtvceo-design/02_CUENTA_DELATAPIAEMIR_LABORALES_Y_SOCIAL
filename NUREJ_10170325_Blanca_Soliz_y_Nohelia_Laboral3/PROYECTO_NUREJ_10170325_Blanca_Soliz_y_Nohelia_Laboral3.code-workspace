@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10170325_Blanca_Soliz_y_Nohelia_Laboral3",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10170325_Blanca_Soliz_y_Nohelia_Laboral3"
+    },
+    {
+      "name": "📂 Repositorio_Laborales_Cortafuegos",
+      "path": "/Users/kuchimac/Mi unidad/00_REPOSITORIO_MAESTRO_DESPACHO_CENTRAL/02_LABORALES_TOTAL_Y_CORTAFUEGOS_SRL"
+    },
+    {
+      "name": "📂 Colab_Laborales_10_Cuadernos",
+      "path": "/Users/kuchimac/Mi unidad/Colab Notebooks/02_LABORALES_TOTAL_10_CUADERNOS"
+    },
+    {
+      "name": "📂 Prueba_Declaracion_Nohelia",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/Lisandro_Camacho/02_Resoluciones_y_Pruebas_PDF"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10170325 · Blanca Soliz (y Declaración Conexa Nohelia) — Juzgado 3° del Trabajo y Sala Social — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

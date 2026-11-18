@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10212822_TD_39_2026_Prevaricato_y_Magistratura_Bolling",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10212822_TD_39_2026_Prevaricato_y_Magistratura_Bolling"
+    },
+    {
+      "name": "📂 Penal_Bolling_Desktop",
+      "path": "/Users/kuchimac/Desktop/casos penales y magistratura/penal bolling"
+    },
+    {
+      "name": "📂 Magistratura_Juez3_Laboral_Drive",
+      "path": "/Users/kuchimac/Mi unidad/Magistratura juez tercero laboral"
+    },
+    {
+      "name": "📂 Consorcio_Juzgado3_JSONs",
+      "path": "/Users/kuchimac/Mi unidad/Consorcio_Eleusis_Panacea_Juzgado3"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10212822 (T.D. N° 39/2026) · Querella Penal por Prevaricato / Ley 004 y Denuncia Disciplinaria contra Jueza 3° Laboral (Dra. Grenny Bolling Viruez) — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

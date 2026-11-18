@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10169733_Sarah_Loayza_Laboral3_Sala_Social",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10169733_Sarah_Loayza_Laboral3_Sala_Social"
+    },
+    {
+      "name": "📂 Sarah_Reposicion_Desktop",
+      "path": "/Users/kuchimac/Desktop/procesos laborales /reposicion atemporal sarah "
+    },
+    {
+      "name": "📂 Sarah_Archivo_Drive",
+      "path": "/Users/kuchimac/Mi unidad/.SARA"
+    },
+    {
+      "name": "📂 Consorcio_Juzgado3_Loayza",
+      "path": "/Users/kuchimac/Mi unidad/Consorcio_Eleusis_Panacea_Juzgado3"
+    },
+    {
+      "name": "📂 Colab_Laborales_10_Cuadernos",
+      "path": "/Users/kuchimac/Mi unidad/Colab Notebooks/02_LABORALES_TOTAL_10_CUADERNOS"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10169733 · Sarah Irma Loayza Rojas — Reposición Atemporal, Compulsa y Nulidad de Apremio Societario — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

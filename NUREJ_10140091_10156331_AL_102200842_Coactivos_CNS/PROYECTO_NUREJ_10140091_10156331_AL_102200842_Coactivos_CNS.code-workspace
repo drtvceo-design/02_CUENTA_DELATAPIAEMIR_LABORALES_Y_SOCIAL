@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10140091_10156331_AL_102200842_Coactivos_CNS",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10140091_10156331_AL_102200842_Coactivos_CNS"
+    },
+    {
+      "name": "📂 CNS_Compulsa_Desktop",
+      "path": "/Users/kuchimac/Desktop/procesos laborales /CNS compulsa"
+    },
+    {
+      "name": "📂 Repositorio_Laborales_Cortafuegos",
+      "path": "/Users/kuchimac/Mi unidad/00_REPOSITORIO_MAESTRO_DESPACHO_CENTRAL/02_LABORALES_TOTAL_Y_CORTAFUEGOS_SRL"
+    },
+    {
+      "name": "📂 Colab_Laborales_10_Cuadernos",
+      "path": "/Users/kuchimac/Mi unidad/Colab Notebooks/02_LABORALES_TOTAL_10_CUADERNOS"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10140091 / NUREJ 10156331 / AL NUREJ 102200842 · Caja Nacional de Salud (C.N.S.) — Coactivos Sociales, Auto de Vista Firme N° 131/2026 y Acción de Libertad (Res. 36/2026) — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

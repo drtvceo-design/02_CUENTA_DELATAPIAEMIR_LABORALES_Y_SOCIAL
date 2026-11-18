@@ -1,0 +1,1 @@
+/Users/kuchimac/Mi unidad/MiEspacioColab_Organizado/Markdown/Busqueda_Global_Paralisis.md-Markdown-20260421_1.md

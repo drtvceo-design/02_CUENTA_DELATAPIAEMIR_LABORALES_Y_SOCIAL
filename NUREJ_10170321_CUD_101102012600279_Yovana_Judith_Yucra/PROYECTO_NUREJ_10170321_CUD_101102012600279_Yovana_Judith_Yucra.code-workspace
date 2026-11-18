@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10170321_CUD_101102012600279_Yovana_Judith_Yucra",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10170321_CUD_101102012600279_Yovana_Judith_Yucra"
+    },
+    {
+      "name": "📂 Judith_Fiscalia_Desktop",
+      "path": "/Users/kuchimac/Desktop/procesos laborales /judith fiscalia"
+    },
+    {
+      "name": "📂 Repositorio_Laborales_Cortafuegos",
+      "path": "/Users/kuchimac/Mi unidad/00_REPOSITORIO_MAESTRO_DESPACHO_CENTRAL/02_LABORALES_TOTAL_Y_CORTAFUEGOS_SRL"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10170321 / CUD 101102012600279 (y ref. 501102012402696) · Yovana Judith Yucra — Proceso Laboral Juzgado 3° y Actuaciones ante Ministerio Público — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

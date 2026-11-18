@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚀 Llave Maestra 1 Clic — Todos Mis Portales · Dr. Ignacio Tapia Vargas</title>
+  <style>
+    :root {
+      --bg: #060913;
+      --card: #111827;
+      --border: #24324a;
+      --gold: #f59e0b;
+      --green: #10b981;
+      --indigo: #6366f1;
+      --purple: #8b5cf6;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: radial-gradient(circle at top, #162240 0%, var(--bg) 65%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 28px 20px 60px;
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 26px; }
+    .hero {
+      background: linear-gradient(135deg, rgba(30,41,59,0.95), rgba(15,23,42,0.95));
+      border: 1px solid #334155;
+      border-radius: 20px;
+      padding: 24px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.45);
+    }
+    .hero h1 { font-size: 22px; margin-bottom: 6px; }
+    .hero p { color: var(--muted); font-size: 14px; max-width: 680px; }
+    .cred-bar {
+      background: #090e1a;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      background: #1e293b;
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #38bdf8;
+      font-weight: 700;
+    }
+    .sec-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fbbf24;
+      letter-spacing: 0.2px;
+      margin-bottom: -10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    }
+    .card.featured { border-color: rgba(245,158,11,0.55); background: linear-gradient(180deg, #172036 0%, #111827 100%); }
+    .card h3 { font-size: 16.5px; margin: 6px 0; }
+    .card p { font-size: 13px; color: var(--muted); }
+    .domain-pill {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #93c5fd;
+      background: rgba(59,130,246,0.14);
+      border: 1px solid rgba(59,130,246,0.3);
+      padding: 3px 9px;
+      border-radius: 999px;
+    }
+    .actions { display: flex; gap: 8px; align-items: center; width: 100%; }
+    .btn {
+      cursor: pointer;
+      border: none;
+      border-radius: 11px;
+      padding: 12px 15px;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #fff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      transition: transform 0.12s ease, opacity 0.12s ease;
+    }
+    .btn:hover { transform: translateY(-1px); opacity: 0.95; }
+    .btn-video { background: linear-gradient(135deg, #f59e0b, #d97706); }
+    .btn-serena { background: linear-gradient(135deg, #10b981, #059669); }
+    .btn-fam { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
+    .btn-vault { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+    .btn-wp { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+    .btn-ghost {
+      width: auto;
+      white-space: nowrap;
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #e2e8f0;
+      padding: 11px 12px;
+      font-weight: 700;
+    }
+    #toast {
+      position: fixed; bottom: 22px; right: 22px;
+      background: #065f46; color: #fff; padding: 12px 18px;
+      border-radius: 10px; font-weight: 700; font-size: 13.5px;
+      display: none; box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <h1>🚀 Centro de Ingreso Directo en 1 Clic — Todos tus Portales</h1>
+        <p>Archivo estrictamente local y privado en tu MacBook Pro (<code>chmod 600</code>). Unificamos tus <strong>12 portales</strong> bajo un solo usuario (<code>ignacio</code>) y una sola clave maestra: haz clic en cualquier botón para entrar automáticamente sin escribir contraseñas.</p>
+      </div>
+      <div class="cred-bar">
+        <span style="font-size:12.5px;color:#cbd5e1;font-weight:700;">Para entrar desde iPhone / iPad:</span>
+        <span>Usuario: <span class="mono">ignacio</span></span>
+        <span>Clave: <span class="mono" id="pw-mask">•••••••••••••••••••••</span></span>
+        <button class="btn btn-ghost" onclick="togglePw()" type="button">👁️ Ver/Ocultar</button>
+        <button class="btn btn-ghost" onclick="copyText('SucreAdmin-utCfLo7MdA', 'Clave maestra copiada al portapapeles')" type="button">📋 Copiar Clave</button>
+      </div>
+    </div>
+
+    <div class="sec-title">0. TU CUADERNO GOOGLE NOTEBOOKLM (ACCESO DIRECTO SIN ERROR DE CUENTA)</div>
+    <div class="grid">
+      <div class="card featured">
+        <div>
+          <div class="domain-pill">notebook.google.com · ID 220f3e90…</div>
+          <h3>🧠 Abrir Tu Cuaderno NotebookLM Activo</h3>
+          <p>Abre directamente tu cuaderno <code>220f3e90-6f10-412b-a513-56697bfb7279</code>. Si cerraste la ventana y cambió el orden de tus cuentas Google, usa el botón del correo exacto abajo:</p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <a class="btn btn-video" href="https://notebook.google.com/notebook/220f3e90-6f10-412b-a513-56697bfb7279?authuser=4" target="_blank">🧠 Abrir Cuaderno (authuser=4 original)</a>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px;">
+            <a class="btn btn-ghost" style="font-size:11.5px;padding:8px;" href="https://notebooklm.google.com/notebook/220f3e90-6f10-412b-a513-56697bfb7279?authuser=drtvceo@gmail.com" target="_blank">📧 drtvceo@</a>
+            <a class="btn btn-ghost" style="font-size:11.5px;padding:8px;" href="https://notebooklm.google.com/notebook/220f3e90-6f10-412b-a513-56697bfb7279?authuser=drtapiavargas@gmail.com" target="_blank">📧 drtapiavargas@</a>
+            <a class="btn btn-ghost" style="font-size:11.5px;padding:8px;" href="https://notebooklm.google.com/notebook/220f3e90-6f10-412b-a513-56697bfb7279?authuser=delatapiaemir@gmail.com" target="_blank">📧 delatapiaemir@</a>
+            <a class="btn btn-ghost" style="font-size:11.5px;padding:8px;" href="https://notebooklm.google.com/notebook/220f3e90-6f10-412b-a513-56697bfb7279?authuser=drignaciodelatv@gmail.com" target="_blank">📧 drignaciodelatv@</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-title">1. TUS 4 SALAS PRIVADAS EN API.UNIVERSOLIFE.COM (ENTRADA AUTOMÁTICA EN 1 CLIC)</div>
+    <div class="grid">
+      <div class="card featured">
+        <div>
+          <div class="domain-pill">api.universolife.com/ava_vivo.php</div>
+          <h3>🎥 Video y Voz en Vivo (AVA &amp; Serena)</h3>
+          <p>Conversa cara a cara con cámara encendida y voz neuronal manos libres con AVA o tu psicóloga Serena.</p>
+        </div>
+        <form method="POST" action="https://api.universolife.com/api/form_login" target="_blank">
+          <input type="hidden" name="username" value="ignacio" />
+          <input type="hidden" name="password" value="SucreAdmin-utCfLo7MdA" />
+          <input type="hidden" name="next" value="/ava_vivo.php" />
+          <button type="submit" class="btn btn-video">🎥 Entrar Ahora en Video en Vivo</button>
+        </form>
+      </div>
+
+      <div class="card featured">
+        <div>
+          <div class="domain-pill">api.universolife.com/refugio.php</div>
+          <h3>🌿 Santuario Psicóloga «Serena»</h3>
+          <p>Tu refugio emocional privado y bitácora psicoterapéutica cifrada AES-256-GCM (solo visible para ti).</p>
+        </div>
+        <form method="POST" action="https://api.universolife.com/api/form_login" target="_blank">
+          <input type="hidden" name="username" value="ignacio" />
+          <input type="hidden" name="password" value="SucreAdmin-utCfLo7MdA" />
+          <input type="hidden" name="next" value="/refugio.php" />
+          <button type="submit" class="btn btn-serena">🌿 Entrar con Psicóloga Serena</button>
+        </form>
+      </div>
+
+      <div class="card featured">
+        <div>
+          <div class="domain-pill">api.universolife.com/familia.php</div>
+          <h3>👨‍👧‍👦 Portal Familiar (Alejandra y Daniel)</h3>
+          <p>Galería familiar privada y botones de saludo en 1 clic por WhatsApp hacia Santa Cruz.</p>
+        </div>
+        <form method="POST" action="https://api.universolife.com/api/form_login" target="_blank">
+          <input type="hidden" name="username" value="ignacio" />
+          <input type="hidden" name="password" value="SucreAdmin-utCfLo7MdA" />
+          <input type="hidden" name="next" value="/familia.php" />
+          <button type="submit" class="btn btn-fam">👨‍👧‍👦 Entrar al Portal Familiar</button>
+        </form>
+      </div>
+
+      <div class="card featured">
+        <div>
+          <div class="domain-pill">api.universolife.com</div>
+          <h3>🔐 Bóveda Central &amp; Cabina Gemini 24/7</h3>
+          <p>Administración de llaves API en rotación automática y chat unificado de frontera.</p>
+        </div>
+        <form method="POST" action="https://api.universolife.com/api/form_login" target="_blank">
+          <input type="hidden" name="username" value="ignacio" />
+          <input type="hidden" name="password" value="SucreAdmin-utCfLo7MdA" />
+          <input type="hidden" name="next" value="/" />
+          <button type="submit" class="btn btn-vault">🔐 Entrar a la Bóveda Central</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="sec-title">2. TUS 8 PANELES WORDPRESS (/WP-ADMIN) — UNIFICADOS CON EL MISMO USUARIO «ignacio» EN 1 CLIC</div>
+    <div class="grid">
+      
+      <div class="card">
+        <div>
+          <div class="domain-pill">info.universolife.com</div>
+          <h3>🌐 Hub Central AVA & Bots</h3>
+          <p>Consola central UniversoLife, avatares y Grafeno Boliviano.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://info.universolife.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://info.universolife.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://info.universolife.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">index.universolife.com</div>
+          <h3>📊 Índice UniversoLife</h3>
+          <p>Índice Fiduciario Panas Token y gobernanza.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://index.universolife.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://index.universolife.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://index.universolife.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">casa-red.universolife.com</div>
+          <h3>🏛️ Casa Red S.R.L. (RWA)</h3>
+          <p>Portal inmobiliario y tokenización de activos reales.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://casa-red.universolife.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://casa-red.universolife.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://casa-red.universolife.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">token.drtapiavargas.com</div>
+          <h3>🪙 Portal Tokens & NFTs</h3>
+          <p>División Web3 Algorand, servicios y activos digitales.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://token.drtapiavargas.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://token.drtapiavargas.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://token.drtapiavargas.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">karapanza.in</div>
+          <h3>🛒 Tienda Karapanza</h3>
+          <p>WooCommerce nacional con pagos locales y despachos.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://karapanza.in/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://karapanza.in/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://karapanza.in" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">shop.boliviachic.com</div>
+          <h3>💎 Shop BoliviaChic</h3>
+          <p>Fábrica de Bloques, NFTs y NOWPayments WooCommerce.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://shop.boliviachic.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://shop.boliviachic.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://shop.boliviachic.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">eleusis.apple-war.com</div>
+          <h3>🧬 Eleusis Graphenic Hub</h3>
+          <p>Portal científico y tecnológico de Eleusis Ícono.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://eleusis.apple-war.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://eleusis.apple-war.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://eleusis.apple-war.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div>
+          <div class="domain-pill">porno.kuchiuyas.com</div>
+          <h3>🐗 Crónicas Los Kuchiuyas</h3>
+          <p>Universo literario satírico picaresco y generador.</p>
+        </div>
+        <div class="actions">
+          <form method="POST" action="https://porno.kuchiuyas.com/wp-login.php" target="_blank" style="flex:1;">
+            <input type="hidden" name="log" value="ignacio" />
+            <input type="hidden" name="pwd" value="SucreAdmin-utCfLo7MdA" />
+            <input type="hidden" name="rememberme" value="forever" />
+            <input type="hidden" name="redirect_to" value="https://porno.kuchiuyas.com/wp-admin/" />
+            <button type="submit" class="btn btn-wp">🚀 Entrar a WP-Admin en 1 Clic</button>
+          </form>
+          <a class="btn btn-ghost" href="https://porno.kuchiuyas.com" target="_blank" title="Ver sitio público">👁️ Ver Web</a>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="sec-title">3. TUS 4 PÁGINAS OFICIALES DE FACEBOOK &amp; META BUSINESS SUITE (ACCESO EN 1 CLIC)</div>
+    <div class="grid">
+      <div class="card">
+        <div>
+          <div class="domain-pill">facebook.com/drtapiavargas</div>
+          <h3>📘 Dr. Tapia Vargas (Médica &amp; WikiPlastic)</h3>
+          <p>Página médica principal: cirugía plástica reconstructiva, educación quirúrgica y preselección Enero 2027.</p>
+        </div>
+        <a class="btn btn-vault" href="https://www.facebook.com/drtapiavargas/" target="_blank">📘 Abrir @drtapiavargas</a>
+      </div>
+      <div class="card">
+        <div>
+          <div class="domain-pill">facebook.com/drignaciotapiavargas</div>
+          <h3>🦅 Dr. Ignacio Tapia Vargas (Ave Fénix &amp; Arte)</h3>
+          <p>Marca personal de autor, taller pictórico, biotecnología Grafeno y estudio podcast «El Ave Fénix».</p>
+        </div>
+        <a class="btn btn-vault" href="https://www.facebook.com/drignaciotapiavargas/" target="_blank">📘 Abrir @drignaciotapiavargas</a>
+      </div>
+      <div class="card">
+        <div>
+          <div class="domain-pill">facebook.com/vaserlipobolivia</div>
+          <h3>💎 VASER Lipo Bolivia (Alta Definición)</h3>
+          <p>Tecnología ultrasónica VASER, bioseguridad quirúrgica y programa clínico ALKA-VASER 2027.</p>
+        </div>
+        <a class="btn btn-vault" href="https://www.facebook.com/vaserlipobolivia/" target="_blank">📘 Abrir @vaserlipobolivia</a>
+      </div>
+      <div class="card">
+        <div>
+          <div class="domain-pill">facebook.com/kuchiuya</div>
+          <h3>🐗 Los Kuchiuyas &amp; Bebidas ALKA El Romeral</h3>
+          <p>Universo picaresco, personajes por pecado capital, bebidas personalizadas y NFTs en Algorand.</p>
+        </div>
+        <a class="btn btn-vault" href="https://www.facebook.com/kuchiuya/" target="_blank">📘 Abrir @kuchiuya</a>
+      </div>
+      <div class="card featured">
+        <div>
+          <div class="domain-pill">business.facebook.com</div>
+          <h3>🎛️ Meta Business Suite (Las 4 Páginas Juntas)</h3>
+          <p>Panel unificado para publicar, programar Reels y leer mensajes de tus 4 páginas oficiales desde un solo lugar.</p>
+        </div>
+        <a class="btn btn-video" href="https://business.facebook.com/latest/home" target="_blank">🎛️ Abrir Meta Business Suite</a>
+      </div>
+    </div>
+
+    <div class="sec-title">4. ACCESOS RÁPIDOS LOCALES EN TU MAC (SIN INTERNET / RESPUESTA INMEDIATA)</div>
+    <div class="grid">
+      <div class="card">
+        <div>
+          <h3>🎙️ Cabina Local de Voz Neuronal AVA</h3>
+          <p>Reproductor local de todos tus audios jurídicos y ejecutivos pre-generados.</p>
+        </div>
+        <a class="btn btn-ghost" style="width:100%;" href="file:///Users/kuchimac/Desktop/Cabina_Voz_AVA/cabina_ava.html">🎙️ Abrir Cabina Local AVA</a>
+      </div>
+      <div class="card">
+        <div>
+          <h3>💬 Saludo WhatsApp 1 Clic (Hijos)</h3>
+          <p>Tarjetas locales directas para Alejandra y Daniel (solo envía cuando tú haces clic).</p>
+        </div>
+        <a class="btn btn-ghost" style="width:100%;" href="file:///Users/kuchimac/Desktop/Cabina_Voz_AVA/01_ENVIAR_WHATSAPP_1_CLIC.html">💬 Abrir Tarjetas WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+  <script>
+    const SECRET_VAL = "SucreAdmin-utCfLo7MdA";
+    let shown = false;
+    function togglePw() {
+      shown = !shown;
+      document.getElementById('pw-mask').textContent = shown ? SECRET_VAL : '•••••••••••••••••••••';
+    }
+    async function copyText(val, msg) {
+      try {
+        await navigator.clipboard.writeText(val);
+        const t = document.getElementById('toast');
+        t.textContent = '✅ ' + msg;
+        t.style.display = 'block';
+        setTimeout(() => { t.style.display = 'none'; }, 2600);
+      } catch (e) {
+        alert('Copia manual: ' + val);
+      }
+    }
+  </script>
+</body>
+</html>

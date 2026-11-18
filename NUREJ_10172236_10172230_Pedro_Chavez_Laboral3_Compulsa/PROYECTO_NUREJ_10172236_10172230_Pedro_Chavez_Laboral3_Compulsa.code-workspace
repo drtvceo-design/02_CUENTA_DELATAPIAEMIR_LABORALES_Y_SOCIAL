@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10172236_10172230_Pedro_Chavez_Laboral3_Compulsa",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10172236_10172230_Pedro_Chavez_Laboral3_Compulsa"
+    },
+    {
+      "name": "📂 Pedro_Compulsa_Desktop",
+      "path": "/Users/kuchimac/Desktop/procesos laborales /pedro compulsa segunda instancia "
+    },
+    {
+      "name": "📂 Milton_y_Deuda_Pedro_Scratch",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/Milton_Chavez"
+    },
+    {
+      "name": "📂 Consorcio_Juzgado3_Drive",
+      "path": "/Users/kuchimac/Mi unidad/Consorcio_Eleusis_Panacea_Juzgado3"
+    },
+    {
+      "name": "📂 Colab_Laborales_10_Cuadernos",
+      "path": "/Users/kuchimac/Mi unidad/Colab Notebooks/02_LABORALES_TOTAL_10_CUADERNOS"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10172236 (y clonación auditada 10172230) · Pedro Luis Chávez Romero — Juzgado 3° Laboral, Compulsa Segunda Instancia y Auditoría Salto fs. 159-160 — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

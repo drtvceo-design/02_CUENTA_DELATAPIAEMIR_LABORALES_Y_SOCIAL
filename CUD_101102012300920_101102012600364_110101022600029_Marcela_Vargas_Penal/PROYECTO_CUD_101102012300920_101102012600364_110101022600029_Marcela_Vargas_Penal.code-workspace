@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_CUD_101102012300920_101102012600364_110101022600029_Marcela_Vargas_Penal",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/CUD_101102012300920_101102012600364_110101022600029_Marcela_Vargas_Penal"
+    },
+    {
+      "name": "📂 Marcela_Penal_Scratch",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/Cuaderno_Inicio_Acciones_Penales_Marcela_Vargas"
+    },
+    {
+      "name": "📂 Marcela_Penal_Desktop",
+      "path": "/Users/kuchimac/Desktop/casos penales y magistratura/PENAL MARCELA"
+    },
+    {
+      "name": "📂 Laboratorio_Medico_Forense",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/Investigacion_Medica_y_Cientifica"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] CUD 101102012300920 / CUD 101102012600364 / NUREJ 110101022600029 · Marcela Ivonne Vargas Vargas — Sobreseimiento Firme, Querella por Denuncia Falsa y Acción Privada (Calumnia/Difamación) — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10209417_Carla_Loayza_Laboral3",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10209417_Carla_Loayza_Laboral3"
+    },
+    {
+      "name": "📂 Carla_Loayza_Desktop",
+      "path": "/Users/kuchimac/Desktop/procesos laborales /carla loayza "
+    },
+    {
+      "name": "📂 Carla_Drive",
+      "path": "/Users/kuchimac/Mi unidad/Carla "
+    },
+    {
+      "name": "📂 Consorcio_Juzgado3_Drive",
+      "path": "/Users/kuchimac/Mi unidad/Consorcio_Eleusis_Panacea_Juzgado3"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10209417 · Carla Loayza — Excepción Perentoria, Nulidad de Autos en Blanco y Apelación — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}

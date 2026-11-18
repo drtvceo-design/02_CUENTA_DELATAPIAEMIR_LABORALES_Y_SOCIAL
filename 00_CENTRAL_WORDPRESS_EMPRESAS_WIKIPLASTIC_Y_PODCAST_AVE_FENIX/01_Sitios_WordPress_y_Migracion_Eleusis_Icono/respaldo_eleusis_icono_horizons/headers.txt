@@ -1,0 +1,16 @@
+HTTP/2 200 
+date: Sun, 15 Nov 2026 14:31:53 GMT
+content-type: text/html
+vary: Accept-Encoding
+last-modified: Sun, 19 Jul 2026 01:26:18 GMT
+etag: W/"6a5c27ba-26a9"
+x-powered-by: Hostinger Horizons
+x-u4s-request-id: 18adf79251c4f996f9f62dbe18f87a59-fra-84
+cache-control: public, s-maxage=2592000, max-age=0
+age: 163944
+server: hcdn
+alt-svc: h3=":443"; ma=86400
+x-hcdn-request-id: 981397be548888bb434a56c149f50d2f-san-edge2
+x-hcdn-cache-status: DYNAMIC
+x-hcdn-upstream-rt: 0.215
+

@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "name": "00_PROYECTO_NUREJ_10110331_Marcela_Vargas_Laboral4_Causa_30_21",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/00_PROYECTOS_POR_NUREJ/02_CUENTA_DELATAPIAEMIR_LABORALES_Y_SOCIAL/NUREJ_10110331_Marcela_Vargas_Laboral4_Causa_30_21"
+    },
+    {
+      "name": "📂 Marcela_Laboral_Desktop",
+      "path": "/Users/kuchimac/Desktop/procesos laborales /marcela"
+    },
+    {
+      "name": "📂 Marcela_Vargas_Drive_Organizado",
+      "path": "/Users/kuchimac/Mi unidad/Organized_Legal_Cases/Marcela_Vargas"
+    },
+    {
+      "name": "📂 Laboral_4_Drive",
+      "path": "/Users/kuchimac/Mi unidad/Laboral 4"
+    },
+    {
+      "name": "📂 Marcela_Cuaderno_Maestro_Scratch",
+      "path": "/Users/kuchimac/.gemini/antigravity/scratch/Cuaderno_Inicio_Acciones_Penales_Marcela_Vargas"
+    },
+    {
+      "name": "📂 Colab_Laborales_10_Cuadernos",
+      "path": "/Users/kuchimac/Mi unidad/Colab Notebooks/02_LABORALES_TOTAL_10_CUADERNOS"
+    }
+  ],
+  "settings": {
+    "window.title": "[delatapiaemir@gmail.com] NUREJ 10110331 (Causa 30/21) · Marcela Ivonne Vargas Vargas — Proceso Laboral Principal y Separación Patrimonial Art. 195 C.Com. — Antigravity Despacho Sucre",
+    "python.defaultInterpreterPath": "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python",
+    "jupyter.kernels.trusted": [
+      "/Users/kuchimac/.gemini/antigravity/scratch/.venv_cientifico_forense/bin/python"
+    ],
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.md": "default"
+    }
+  }
+}
